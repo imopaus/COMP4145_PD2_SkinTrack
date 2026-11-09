@@ -63,3 +63,5 @@ SkinTrack provides experimental skincare information, not medical advice,
 diagnosis, or treatment. Image-based skin assessments and age estimates may be
 inaccurate. Consult a qualified clinician about persistent, painful, or
 concerning skin issues.
+
+
