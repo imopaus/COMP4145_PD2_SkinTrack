@@ -31,7 +31,7 @@ source .venv/bin/activate
 Install the application dependencies and start Streamlit:
 
 ```bash
-python -m pip install streamlit requests
+python -m pip install streamlit requests pytest
 streamlit run app.py
 ```
 
@@ -42,6 +42,16 @@ On Windows, activate the environment with:
 ```
 
 Then run the same installation and launch commands.
+
+If VS Code still shows `Import "pytest" could not be resolved`, select the
+project virtual environment as the active Python interpreter:
+
+```powershell
+.venv\Scripts\python.exe
+```
+
+Then use the VS Code command `Python: Select Interpreter` and choose the
+`.venv` environment.
 
 Open the local URL printed by Streamlit (typically
 `http://localhost:8501`). Create an account or sign in, then enter your HKBU
